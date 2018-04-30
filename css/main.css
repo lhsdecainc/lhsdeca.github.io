@@ -876,6 +876,18 @@ input[type="button"].btn--primary:focus {
     color: #549DD6;
 }
 
+.btn--stroke2, button.btn--stroke2{
+  background: transparent !important;
+  border: 0.2rem solid #549DD6;
+  color: #549DD6;
+  height:50px;
+    width:200px;
+}
+.btn--stroke2:hover, button.btn--stroke2:hover{
+  border: 0.2rem solid #000000;
+  color: #000000;
+}
+
 .btn--stroke:hover, button.btn--stroke:hover {
     border: 0.2rem solid #000000;
     color: #000000;
